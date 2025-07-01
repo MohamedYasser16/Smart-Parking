@@ -22,7 +22,6 @@ const router = createBrowserRouter([
       { path: "/project", element: <AccordionUsage /> },
       { path: "/team", element: <Team /> },
       { path: "/team/:id", element: <MemberDetails /> },
-      { path: "/ansys", element: <Ansys /> }
     ] },
 ]);
 

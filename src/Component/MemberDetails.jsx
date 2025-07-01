@@ -13,20 +13,20 @@ import girls from '../assets/images/girls.jpg'
 
 export default function MemberDetails() {
     let {id} = useParams()
-    
+
     let team = [ 
               { name:"Dr.Tamer Fetouh" , id:"Tamer" , bio:"Full Professor of Electrical Power Systems Minufiya University" , leader:false , imag:Tamer , phone:"01008669676" , email:"abdoo11122002@gmail.com" } , 
-              { name:"Abdelrahman Ahmed Kamal" , id:"Abdelrahman" , leader:false , imag:Abdelrahman , phone:"01020723226" , email:"abdoo11122002@gmail.com" , link:"www.linkedin.com/in/abdelrahman-ahmed-kamal-064933273"} , 
-              { name:"Ahmed Fathy Eldesokey" , id:"Fathy" , leader:false , imag:fathy , phone:"01026564851" , email:"abdoo11122002@gmail.com" , link:"www.linkedin.com/in/abdelrahman-ahmed-kamal-064933273"} , 
-              { name:"Kerolos Mina Mikahail" , id:"Kerolos" , leader:false , imag:kero , phone:"01279545101", email:"kminamina42@gmail.com" , link:"linkedin.com/in/kerolos-mina-38a0b8233" } , 
-              { name:"Mohamed Mahmoud Hashad" , id:"Hashad", leader:false , imag:Hashad , phone:"01015490590" , email:"abdoo11122002@gmail.com" , link:"www.linkedin.com/in/abdelrahman-ahmed-kamal-064933273"} , 
-              { name:"Mostafa Eid Zayed", id:"Zayed", leader:false , imag:Zayed , phone:"01203661040" , email:"abdoo11122002@gmail.com" , link:"www.linkedin.com/in/abdelrahman-ahmed-kamal-064933273"} , 
+              { name:"Abdelrahman Ahmed Kamal" , id:"Abdelrahman" , leader:false , imag:Abdelrahman , phone:"01020723226" , email:"abdoo11122002@gmail.com" , link:"https://www.linkedin.com/in/abdelrahman-ahmed-kamal-064933273"} , 
+              { name:"Ahmed Fathy Eldesokey" , id:"Fathy" , leader:false , imag:fathy , phone:"01026564851" , email:"abdoo11122002@gmail.com" , link:"https://www.linkedin.com/in/abdelrahman-ahmed-kamal-064933273"} , 
+              { name:"Kerolos Mina Mikahail" , id:"Kerolos" , leader:false , imag:kero , phone:"01279545101", email:"kminamina42@gmail.com" , link:"https://www.linkedin.com/in/kerolos-mina-38a0b8233" } , 
+              { name:"Mohamed Mahmoud Hashad" , id:"Hashad", leader:false , imag:Hashad , phone:"01015490590" , email:"abdoo11122002@gmail.com" , link:"https://www.linkedin.com/in/abdelrahman-ahmed-kamal-064933273"} , 
+              { name:"Mostafa Eid Zayed", id:"Zayed", leader:false , imag:Zayed , phone:"01203661040" , email:"abdoo11122002@gmail.com" , link:"https://www.linkedin.com/in/abdelrahman-ahmed-kamal-064933273"} , 
               { name:"Mostafa Mohamed Mahgoup", id:"Mahgoup", leader:false , imag:Mahgoup , phone:"01027545079", email:"mostafamahgoup717@gmail.com " , link:"https://www.linkedin.com/in/mostafamahgoup"} , 
-             { name:"Saleh Atef Elsotohy", id:"Saleh", leader:false , imag:Saleh , phone:"01283456707" , email:"abdoo11122002@gmail.com" ,  link:"www.linkedin.com/in/abdelrahman-ahmed-kamal-064933273"} , 
-             { name:"Manar Hosney Mohamed", id:"Manar" , leader:false , imag:girls, phone:"01207298849" , email:"abdoo11122002@gmail.com" ,link:"www.linkedin.com/in/abdelrahman-ahmed-kamal-064933273" } , 
-             { name:"Maruim Farid Elkhooly", id:"Maruim" , leader:false , imag:girls, phone:"01033933294" , email:"abdoo11122002@gmail.com" ,link:"www.linkedin.com/in/abdelrahman-ahmed-kamal-064933273" } , 
-             { name:"Menna Allah Mamdouh Sakr", id:"Menna" , leader:false , imag:girls, phone:"01098352975" , email:"abdoo11122002@gmail.com" ,link:"www.linkedin.com/in/abdelrahman-ahmed-kamal-064933273" } , 
-             { name:"Nawal Wageh Helal", id:"Nawal" , leader:false , imag:girls, phone:"01023677074" , email:"abdoo11122002@gmail.com" ,link:"www.linkedin.com/in/abdelrahman-ahmed-kamal-064933273"},
+             { name:"Saleh Atef Elsotohy", id:"Saleh", leader:false , imag:Saleh , phone:"01283456707" , email:"abdoo11122002@gmail.com" ,  link:"https://www.linkedin.com/in/abdelrahman-ahmed-kamal-064933273"} , 
+             { name:"Manar Hosney Mohamed", id:"Manar" , leader:false , imag:girls, phone:"01207298849" , email:"abdoo11122002@gmail.com" ,link:"https://www.linkedin.com/in/abdelrahman-ahmed-kamal-064933273" } , 
+             { name:"Maruim Farid Elkhooly", id:"Maruim" , leader:false , imag:girls, phone:"01033933294" , email:"abdoo11122002@gmail.com" ,link:"https://www.linkedin.com/in/abdelrahman-ahmed-kamal-064933273" } , 
+             { name:"Menna Allah Mamdouh Sakr", id:"Menna" , leader:false , imag:girls, phone:"01098352975" , email:"abdoo11122002@gmail.com" ,link:"https://www.linkedin.com/in/abdelrahman-ahmed-kamal-064933273" } , 
+             { name:"Nawal Wageh Helal", id:"Nawal" , leader:false , imag:girls, phone:"01023677074" , email:"abdoo11122002@gmail.com" ,link:"https://www.linkedin.com/in/abdelrahman-ahmed-kamal-064933273"},
             ]
 
    let detail = team.filter( x => x.id == id )

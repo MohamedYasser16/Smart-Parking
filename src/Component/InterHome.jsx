@@ -20,7 +20,7 @@ export default function InterHome() {
             <div>
 
 <h1 className='text-pink-400 text-6xl font-[Playfair]'>
-  <h3 className='h-[128px] text-pink-400 lg:h-auto text-6xl lg:text-7xl'> Smart Parking
+  <h3 className=' text-pink-400 lg:h-auto text-6xl lg:text-7xl'> Smart Parking
   </h3>
     <h2 className='text-white lg:text-7xl text-7xl capitalize font-[Cedarville]'>graduation project </h2>
     <span className=' text-7xl bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-transparent bg-clip-text ' >2025</span> 

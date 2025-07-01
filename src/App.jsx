@@ -21,9 +21,6 @@ const router = createBrowserRouter([
     ] },
 ]);
 
-Router.run(router, Router.HistoryLocation, function (Handler) {
- React.render(<Handler/>, document.body);
-});
 
 function App() {
 

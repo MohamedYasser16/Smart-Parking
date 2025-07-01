@@ -4,7 +4,7 @@ import 'flowbite' ;
 import InterHome from './Component/InterHome'
 import AccordionUsage from './Component/Acordiation'
 import Team from './Component/Team'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { createBrowserRouter, Router, RouterProvider } from 'react-router-dom'
 import Layout from './Component/Layout'
 import MemberDetails from './Component/MemberDetails'
 
@@ -20,6 +20,10 @@ const router = createBrowserRouter([
       { path: "/team/:id", element: <MemberDetails /> },
     ] },
 ]);
+
+Router.run(router, Router.HistoryLocation, function (Handler) {
+ React.render(<Handler/>, document.body);
+});
 
 function App() {
 

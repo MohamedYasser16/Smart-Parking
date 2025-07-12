@@ -101,7 +101,7 @@ export default function AccordionUsage() {
               <AccordionDetails style={{ color: "white" }} >
                 <iframe
                   src={nodeRed}
-                  style={{ width: "100%", height: "900px" }}
+                  style={{ width: "100%", height: "500px" }}
                   type="application/pdf"
                   allow="autoplay">
                 </iframe>

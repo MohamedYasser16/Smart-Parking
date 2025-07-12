@@ -31,6 +31,7 @@ export default function MemberDetails() {
 
 
 
+console.log(detail[0]?.name.split( ).slice(0,1).join( ));
 
 
 

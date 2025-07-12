@@ -52,7 +52,7 @@ console.log(detail.name);
          {
           detail[0]?.email ?  <div className="flex justify-center lg:justify-start items-center gap-x-2 hover:cursor-pointer p-2.5">
              <span className='text-xl text-pink-400'><i class="fa-solid fa-envelope"></i></span> 
-             <a href={`https://mailto:${detail[0]?.email}`}> <p className='text-white text-xl '>{detail[0]?.email}  </p></a>
+             <a href={`mailto:${detail[0]?.email}`}> <p className='text-white text-xl '>{detail[0]?.email}  </p></a>
           
        </div> : ""
          }

@@ -50,7 +50,7 @@ console.log(detail.name);
            <p className='text-white  text-2xl mt-2 capitalize p-1.5'>{detail[0]?.bio}</p>
 
          {
-          detail[0]?.email ?  <div className="flex justify-center lg:justify-star items-center gap-x-2 hover:cursor-pointer p-2.5">
+          detail[0]?.email ?  <div className="flex justify-center lg:justify-start items-center gap-x-2 hover:cursor-pointer p-2.5">
              <span className='text-xl text-pink-400'><i class="fa-solid fa-envelope"></i></span> 
              <a href={`mailto:${detail[0]?.email}`}> <p className='text-white text-xl '>{detail[0]?.email}  </p></a>
           

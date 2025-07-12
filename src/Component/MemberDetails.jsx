@@ -31,14 +31,11 @@ export default function MemberDetails() {
 
 
 
-console.log(detail[0]?.name.split( ).slice(0,1).join( ));
-
-
 
    let detail = team.filter( x => x.id == id )
-   console.log(detail);
+  //  console.log(detail);
    
-console.log(detail.name);
+
 
   return (
     <>
@@ -57,7 +54,7 @@ console.log(detail.name);
          {
           detail[0]?.email ?  <div className="flex justify-center lg:justify-start items-center gap-x-2 hover:cursor-pointer p-2.5">
              <span className='text-xl text-pink-400'><i class="fa-solid fa-envelope"></i></span> 
-             <a href={`mailto:${detail[0]?.email}?subject=Hello&${detail[0]?.name.split( ).slice(0,1).join( )}=Hi`}> <p className='text-white text-xl '>{detail[0]?.email}  </p></a>
+             <a href={`mailto:${detail[0]?.email}?subject=Hello&${detail[0]?.name.split(" ").slice(0,1).join(" " )}=Hi`}> <p className='text-white text-xl '>{detail[0]?.email}  </p></a>
           
        </div> : ""
          }

@@ -18,7 +18,7 @@ export default function Team() {
              { name:"Abdelrahman Ahmed Kamal" , id:"Abdelrahman" , leader:false , imag:Abdelrahman , phone:"01020723226" , email:"abdoo11122002@gmail.com" , link:"https://www.linkedin.com/in/abdelrahman-ahmed-kamal-064933273"} , 
              { name:"Ahmed Fathy Eldesokey" , id:"Fathy" , leader:false , imag:fathy , phone:"01026564851" , email:"a.fathyeldsoky@gmail.com" , link:"https://www.linkedin.com/in/ahmed-e-4b8512288?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"} , 
              { name:"Kerolos Mina Mikahail" , id:"Kerolos" , leader:false , imag:kero , phone:"01279545101", email:"kminamina42@gmail.com" , link:"https://www.linkedin.com/in/kerolos-mina-38a0b8233" } , 
-             { name:"Mohamed Mahmoud Hashad" , id:"Hashad", leader:false , imag:Abdelrahman , phone:"01015490590" , email:"mohamedmmshaker@gmail.com" , link:"https://www.linkedin.com/in/mohamed-mm-hashad/"} , 
+             { name:"Mohamed Mahmoud Hashad" , id:"Hashad", leader:false , imag:Hashad , phone:"01015490590" , email:"mohamedmmshaker@gmail.com" , link:"https://www.linkedin.com/in/mohamed-mm-hashad/"} , 
              { name:"Mostafa Eid Zayed", id:"Zayed", leader:false , imag:Zayed , phone:"01203661040" , email:"abdoo11122002@gmail.com" , link:"https://www.linkedin.com/in/abdelrahman-ahmed-kamal-064933273"} , 
              { name:"Mostafa Mohamed Mahgoup", id:"Mahgoup", leader:false , imag:Mahgoup , phone:"01027545079", email:"mostafamahgoup717@gmail.com " , link:"https://www.linkedin.com/in/mostafamahgoup"} , 
             { name:"Saleh Atef Elsotohy", id:"Saleh", leader:false , imag:Saleh , phone:"01283456707" , email:"salehelstohy@gmail.com" ,  link:"https://www.linkedin.com/in/salehelstohy/"} , 

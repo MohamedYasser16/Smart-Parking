@@ -22,12 +22,16 @@ export default function MemberDetails() {
             { name:"Mohamed Mahmoud Hashad" , id:"Hashad", leader:false , imag:Hashad , phone:"01015490590" , email:"mohamedmmshaker@gmail.com" , link:"https://www.linkedin.com/in/mohamed-mm-hashad/"} , 
             { name:"Mostafa Eid Zayed", id:"Zayed", leader:false , imag:Zayed , phone:"01203661040" , email:"abdoo11122002@gmail.com" , link:"https://www.linkedin.com/in/abdelrahman-ahmed-kamal-064933273"} , 
             { name:"Mostafa Mohamed Mahgoup", id:"Mahgoup", leader:false , imag:Mahgoup , phone:"01027545079", email:"mostafamahgoup717@gmail.com " , link:"https://www.linkedin.com/in/mostafamahgoup"} , 
-           { name:"Saleh Atef Elsotohy", id:"Saleh", leader:false , imag:Saleh , phone:"01283456707" , email:"salehelstohy@gmail.com" ,  link:"https://www.linkedin.com/in/salehelstohy/"} , 
-           { name:"Manar Hosney Mohamed", id:"Manar" , leader:false , imag:girls, email:"manarhosney862@gmail.com" ,link:"https://www.linkedin.com/in/manar-hosny-b83686281"} , 
-           { name:"Maruim Farid Elkhooly", id:"Maruim" , leader:false , imag:girls, email:"mariamfaried7@gmail.com" ,link:"https://www.linkedin.com/in/mariam-faried-93381b289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app " } , 
-           { name:"Menna Allah Mamdouh Sakr", id:"Menna" , leader:false , imag:girls , email:"menasakr34@gmail.com" ,link:"https://www.linkedin.com/in/mena-sakr-31292028a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" } , 
-           { name:"Nawal Wageh Helal", id:"Nawal" , leader:false , imag:girls , email:"nawalhelal357@gmail.com " ,link:"https://www.linkedin.com/in/nawal-helal-02982728a"},
-            ]
+            { name:"Saleh Atef Elsotohy", id:"Saleh", leader:false , imag:Saleh , phone:"01283456707" , email:"salehelstohy@gmail.com" ,  link:"https://www.linkedin.com/in/salehelstohy/"} , 
+            { name:"Manar Hosney Mohamed", id:"Manar" , leader:false , imag:girls, phone:"01207298849" , email:"manarhosney862@gmail.com" ,link:"https://www.linkedin.com/in/manar-hosny-b83686281"} , 
+            { name:"Maruim Farid Elkhooly", id:"Maruim" , leader:false , imag:girls, phone:"01033933294" , email:"mariamfaried7@gmail.com" ,link:"https://www.linkedin.com/in/mariam-faried-93381b289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app " } , 
+            { name:"Menna Allah Mamdouh Sakr", id:"Menna" , leader:false , imag:girls, phone:"01098352975" , email:"menasakr34@gmail.com" ,link:"https://www.linkedin.com/in/mena-sakr-31292028a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" } , 
+            { name:"Nawal Wageh Helal", id:"Nawal" , leader:false , imag:girls, phone:"01023677074" , email:"nawalhelal357@gmail.com " ,link:"https://www.linkedin.com/in/nawal-helal-02982728a"},
+              ]
+
+
+
+
 
 
    let detail = team.filter( x => x.id == id )
